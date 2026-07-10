@@ -1,0 +1,23 @@
+.products-container h5,
+.products-container h4 {
+  color: #170f58;
+}
+.products-container {
+  border-radius: 1rem;
+  /* padding: 1rem; */
+  /* box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25); */
+}
+.products-container:hover {
+  transform: scale(1.01);
+}
+.buy-and-cart-btn {
+  display: flex;
+  gap: 1.5rem;
+}
+@media (max-device-width: 1199px) {
+  .buy-and-cart-btn {
+    /* gap: 1.5rem; */
+    margin-top: 1.5rem;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,71 @@
+body h3,
+body h2,
+body h6{
+  text-align: center;
+}
+.left-right-contents h3{
+  font-weight: 500;
+}
+.services-container h6{
+  color: #170f58;
+}
+.left-right-contents h3,
+.left-right-contents a {
+  color: white;
+}
+.left-right-contents a {
+  text-decoration: none;
+}
+.services-container p{
+  text-align: center;
+}
+.left-right-contents {
+  /* background-color: #170f58; */
+  background: linear-gradient(to left, #170f58 50%, #170f58 50%);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.start-journey {
+  margin-bottom: 3rem;
+}
+.start-journey .btn-bg {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.service-breadcrumb {
+  background-image: url("../../assets/images/dummy-image-landscape-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  max-width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.service-breadcrumb::before {
+  content: "";
+  position: absolute;
+  /* top: 0;
+    left: 0; */
+  width: 100%;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.services-container h5 {
+  text-transform: uppercase;
+}
+.join-us-btn{
+    display: flex;
+    justify-content: center;
+
+}
+
+.services-container .course-container .course-image{
+  width: 30%;
+}

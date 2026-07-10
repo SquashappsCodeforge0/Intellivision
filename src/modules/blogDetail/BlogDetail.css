@@ -1,0 +1,105 @@
+.bd-para {
+  background-color: aliceblue;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+}
+.bd-para p {
+  font-size: 18px;
+  line-height: 36px;
+}
+.comments {
+  background-color: aliceblue;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+.comments-profile {
+  border-radius: 5rem;
+  overflow: hidden;
+  max-width: 5%;
+  /* margin-bottom: 7rem; */
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.likes-reply {
+  display: flex;
+  gap: 2rem;
+  margin-left: 0.5rem;
+}
+.likes::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f164";
+  position: relative;
+  right: 0.5rem;
+}
+.reply::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f075";
+  position: relative;
+  right: 0.5rem;
+}
+.add-comment {
+  background-color: aliceblue;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+}
+.form-control {
+  margin-bottom: 1.5rem;
+}
+#input-sec {
+  height: 3.5rem;
+}
+.blog-detail-breadcrumbs {
+  background-image: url("../../assets/images/dummy-image-landscape-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  max-width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 0;
+}
+.blog-detail-breadcrumbs::before {
+  content: "";
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.blog-detail-blog {
+  cursor: pointer;
+}
+.blog-detail-container h3{
+  font-size: 1.75rem
+}
+@media (min-device-width: 1025px) {
+  .comments-profile {
+    min-width: 10%;
+  }
+}
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .comments-profile {
+    min-width: 20%;
+  }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 767px) {
+  .comments-profile {
+    min-width: 25%;
+  }
+}

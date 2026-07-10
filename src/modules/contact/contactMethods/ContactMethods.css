@@ -1,0 +1,27 @@
+.contact-method-container {
+  background-color: #170f58;
+  /* box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.5); */
+  border: 1px solid #170f58;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.image-cont {
+  margin-top: -3rem;
+  margin-bottom: 2rem;
+}
+.contact-method-container h6,
+.contact-method-container h3 {
+  color: white;
+}
+.contact-method img {
+  width: auto;
+}
+@media (min-device-width: 991px) {
+  .contact-method-container:hover {
+    transform: scale(1.1);
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.5);
+  }
+}

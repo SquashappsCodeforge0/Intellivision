@@ -1,0 +1,131 @@
+.section12 {
+  background-color: #ececec;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+.section13 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.form-container {
+  background-color: #ececec;
+  /* max-width: 80%; */
+  padding: 40px 40px 20px 40px;
+  border-radius: 10px;
+}
+.form-control {
+  resize: none;
+}
+.lining {
+  border: 1px solid #848484;
+  margin-top: 2rem;
+}
+.footer-section {
+  padding-top: 5rem;
+  background-color: #030416;
+  padding-bottom: 5rem;
+}
+.footer-section .ralewayFont {
+  margin-left: 1rem;
+}
+.footer-section li {
+  color: #ffffff;
+  margin-top: 2rem;
+}
+.unordered-list li::marker {
+  content: none !important;
+}
+
+.footer-section h3 {
+  color: white;
+  /* margin-left: -1rem; */
+}
+/* .listing {
+  margin-left: 4rem;
+} */
+.section-end {
+  background-color: #000446;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.section-end p {
+  color: #909090;
+}
+.email-link {
+  text-decoration: none;
+  color: #000446;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.your-modal-class {
+  background: white;
+  padding: 20px;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1001; /* Higher z-index than the overlay */
+}
+
+/* Center the modal content */
+.your-modal-class {
+  position: relative;
+  width: 60%; /* Adjust the width as needed */
+  max-width: 400px; /* Set a max-width for responsiveness */
+}
+
+@media (max-device-width: 768px) {
+  .butn {
+    display: flex !important;
+  }
+  .listing {
+    margin-left: 0;
+  }
+  .footer-section h3 {
+    margin-top: 4rem;
+  }
+  .section13 h2 {
+    margin-top: 4rem;
+  }
+  .section13 h2,.section13 p{
+    text-align: left;
+  }
+  .form-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-container .btn-bg {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section13 h1,
+  .section13 p {
+    text-align: center;
+  }
+  .section13 button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* .section13 .col-lg-6 .mt-2 {
+    display: flex;
+  } */
+  .section13 .col-lg-6 .mt-2 p {
+    text-align: left;
+  }
+}

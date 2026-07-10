@@ -1,0 +1,14 @@
+.head-image {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.slick h3 {
+  color: white;
+  font-weight: 500;
+  /* font-size: 23px; */
+}
+.slick .head-image img{
+  opacity: 0.5;
+}

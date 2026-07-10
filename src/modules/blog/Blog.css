@@ -1,0 +1,25 @@
+.blog-breadcrumbs {
+  background-image: url("../../assets/images/dummy-image-landscape-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  max-width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.blog-breadcrumbs::before {
+  content: "";
+  position: absolute;
+  /* top: 0;
+    left: 0; */
+  width: 100%;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.blogs {
+  cursor: pointer;
+}

@@ -1,0 +1,126 @@
+.service-detail-breadcrumb {
+  background-image: url("../../assets/images/dummy-image-landscape-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  max-width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.service-detail-breadcrumb::before {
+  content: "";
+  position: absolute;
+  /* top: 0;
+      left: 0; */
+  width: 100%;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.service-details-container h2,
+.service-details-container p {
+  text-align: left;
+}
+.service-details-container p {
+  font-size: 20px;
+  line-height: 35px;
+  opacity: 70%;
+  /* margin-bottom: 3rem; */
+}
+.why-is-it-best li,
+.fitness-training li {
+  font-size: 20px;
+  opacity: 70%;
+}
+.why-is-it-best ::marker {
+  color: red;
+  font-size: 40px;
+}
+.thumbs-wrapper {
+  display: none !important;
+}
+.fitness-training ::marker {
+  color: red;
+  font-size: 40px;
+}
+.fitness-training p {
+  opacity: 100%;
+}
+.diet-maintanance {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: lightgray;
+}
+
+.training-eminity-img {
+  width: 50%;
+}
+.items-container {
+  padding-top: 20%;
+}
+
+.image-underline {
+  display: flex;
+  position: relative;
+  border-bottom: 3px solid lightgrey;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.image-underline::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background-color: #170f58;
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.image-underline:hover::before {
+  width: 100%;
+  background-color: #170f58;
+}
+
+/* .image-underline:hover {
+  border-color: #170f58;
+} */
+.logos {
+  margin-top: -2rem;
+}
+.logos-con {
+  transition: 0.2s ease-in-out;
+}
+.logos-con:hover {
+  transform: scale(1.2);
+}
+
+@media (max-device-width: 1200px) {
+  .image-underline {
+    flex-direction: column;
+  }
+  .items-container {
+    padding-top: 8%;
+  }
+}
+@media (max-device-width: 420px) {
+  .service-details-container p {
+    font-size: 15px;
+  }
+  .service-details-container li {
+    font-size: 13px;
+  }
+  .why-is-it-best ::marker {
+    font-size: 25px;
+  }
+  .fitness-training ::marker {
+    font-size: 25px;
+  }
+}

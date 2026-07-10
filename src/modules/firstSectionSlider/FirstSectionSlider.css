@@ -1,0 +1,174 @@
+.slick-prev:before {
+  margin-left: -1rem;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 32px !important;
+}
+.store-download-buttons {
+  display: flex;
+  gap: 2rem;
+}
+.store-download-buttons img {
+  width: auto;
+}
+@media (min-device-width:992px) and (max-device-width:1020px){
+  .slick-prev:before{
+    position: absolute;
+    left: 0.8rem;
+  }
+  .slick-next::before{
+    position: absolute;
+    right: 0.5rem
+  }
+}
+
+@media (min-device-width:768px) and (max-device-width:800px){
+  .slick-prev:before{
+    position: absolute;
+    /* left: 1rem; */
+  }
+  .slick-next::before{
+    position: absolute;
+    /* right: 0.5rem */
+  }
+}
+@media (max-device-width:768px){
+  .store-download-buttons{
+   justify-content: center;
+  }
+}
+@media (min-device-width:568px) and (max-device-width: 620px) {
+  .slick-prev:before{
+    position: absolute;
+    top: 27rem;
+    left: 13rem;
+  }
+  .slick-next:before{
+    position: absolute;
+    top: 27rem;
+    right: 13rem;
+  }
+}
+@media (min-device-width:490px) and (max-device-width: 567px) {
+  .store-download-buttons {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 58%;
+    flex-direction: column;
+  }
+  .slick-prev:before{
+    position: absolute;
+    top: 31rem;
+    left: 13rem;
+  }
+  .slick-next:before{
+    position: absolute;
+    top: 31rem;
+    right: 13rem;
+  }
+}
+@media (min-device-width:464px) and (max-device-width: 489px) {
+  .store-download-buttons {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    flex-direction: column;
+  }
+  .slick-prev:before{
+    position: absolute;
+    top: 32rem;
+    left: 11rem;
+  }
+  .slick-next:before{
+    position: absolute;
+    top: 32rem;
+    right: 11rem;
+  }
+}
+@media (min-device-width:350px) and (max-device-width: 463px) {
+  .store-download-buttons {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    flex-direction: column;
+  }
+}
+@media (min-device-width:325px) and (max-device-width: 349px) {
+  .store-download-buttons {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    flex-direction: column;
+  }
+}
+@media (max-device-width:324px) {
+  .store-download-buttons {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    flex-direction: column;
+  }
+}
+
+
+@media (min-device-width:359px) and (max-device-width: 463px) {
+  .slick-prev:before{
+    position: absolute;
+    top: 32rem;
+    left: 10rem;
+  }
+  .slick-next:before{
+    position: absolute;
+    top: 32rem;
+    right: 10rem;
+  }
+}
+@media (min-device-width:421px) and (max-device-width:440px){
+  .slick-prev:before{
+    position: absolute;
+    top: 31rem;
+    left: 10rem;
+  }
+  .slick-next:before{
+    position: absolute;
+    top: 31rem;
+    right: 10rem;
+  }
+}
+@media (min-device-width:350px) and (max-device-width:420px){
+  .slick-prev:before{
+    position: absolute;
+    top: 28rem;
+    left: 9rem;
+  }
+  .slick-next:before{
+    position: absolute;
+    top: 28rem;
+    right: 9rem;
+  }
+}
+@media (min-device-width:280px) and (max-device-width:349px){
+  .slick-prev:before{
+    position: absolute;
+    top: 28rem;
+    left: 6rem;
+  }
+  .slick-next:before{
+    position: absolute;
+    top: 28rem;
+    right: 6rem;
+  }
+}
+@media (min-device-width:200px) and (max-device-width:279px){
+  .slick-prev:before{
+    position: absolute;
+    top: 30rem;
+    left: 6rem;
+  }
+  .slick-next:before{
+    position: absolute;
+    top: 30rem;
+    right: 6rem;
+  }
+}

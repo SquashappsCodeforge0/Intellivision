@@ -1,0 +1,25 @@
+.services {
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.img-contain {
+  background-color: #170f58;
+  padding: 1.5rem;
+  /* padding: 22px 8px 22px 10px; */
+  border-radius: 5rem;
+  max-width: 25%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3rem;
+  transition: 0.3s all ease-in-out;
+}
+.img-contain:hover {
+  transform: scale(1.1);
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.6);
+}
+

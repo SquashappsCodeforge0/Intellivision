@@ -1,0 +1,126 @@
+.footer-section {
+  padding-top: 5rem;
+  background-color: #030416;
+  padding-bottom: 1rem;
+}
+.footer-section h3{
+  text-align: left;
+}
+.footer-section img {
+  width: auto;
+}
+.unordered-list ul li::marker {
+  content:none;
+}
+.footer-section li::marker{
+  font-size:20px;
+}
+.per-loc {
+  display: flex;
+  align-items: baseline; 
+  list-style-type: none;
+}
+.mail-add{
+  display: flex;
+  align-items: baseline;
+}
+.number{
+  display: flex;
+  align-items: baseline;
+}
+.number::before {
+  content: url("../../assets/images/mobileLogo.svg");
+  position: relative;
+  top: 0.2rem;
+  right: 1rem;
+}
+.mail-add::before {
+  content: url("../../assets/images/mailminiLogo.svg");
+  position: relative;
+  top: 0.2rem;
+  right: 1rem;
+}
+.per-loc::before {
+  content: url("../../assets/images/locationMini.svg");
+  position: relative;
+  top: 0.2rem;
+  right: 1rem;
+}
+.footer-section .ralewayFont {
+  margin-left: 1rem;
+}
+.footer-section li {
+  color: #ffffff;
+  margin-top: 2rem;
+}
+.footer-section h3 {
+  color: white;
+}
+.section-end {
+  background-color: #000446;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.section-end p {
+  color: #909090;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.footer-section img {
+  cursor: pointer;
+}
+.footer-section li {
+  cursor: pointer;
+}
+.footer-section h3 {
+  font-size: 19px;
+}
+.unordered-list {
+  margin-left: -1rem;
+}
+.logo-name-sec {
+  cursor: pointer;
+  margin-top: -1rem;
+  transition: 0.3s;
+}
+.logo-name-sec:hover {
+  transform: scale(1.06);
+}
+.mail-add {
+  text-decoration: none;
+  color: white;
+}
+.footer-section li {
+  transition: 0.3s;
+}
+.social-logos {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+.social-logos img {
+  transition: 0.3s;
+}
+@media (min-device-width: 992px) {
+  .footer-section li:hover {
+    transform: scale(1.1);
+    color: darkgoldenrod;
+  }
+  .second-col{
+    margin-left: 10rem;
+  }
+  .footer-section a:hover {
+    /* transform: scale(1.1); */
+    color: darkgoldenrod;
+  }
+  .social-logos img:hover {
+    transform: scale(1.1);
+  }
+}
+@media (max-device-width:991px){
+  .footer-section li{
+    margin-left: 1rem;
+  }
+
+}

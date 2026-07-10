@@ -1,0 +1,11 @@
+.read-more-para::after {
+  content: url("../../../assets/images/read-more-arrow.svg");
+  position: relative;
+  top: 0.1rem;
+  left: 1rem;
+}
+.read-more p {
+  font-size: 18px;
+  color: #170f58;
+  font-weight: 500;
+}

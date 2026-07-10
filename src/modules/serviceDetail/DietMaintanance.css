@@ -1,0 +1,9 @@
+.diet-cont {
+  background-color: aliceblue;
+  padding: 4rem 1rem 1rem 1rem;
+  width: 70%;
+  text-align: center;
+}
+.diet-counter-image {
+  width: 30%;
+}

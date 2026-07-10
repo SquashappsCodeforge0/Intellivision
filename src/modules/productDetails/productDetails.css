@@ -1,0 +1,118 @@
+.product-details p {
+  font-size: 17px;
+  line-height: 30px;
+  color: grey;
+}
+.product-details .buy-now .btn-bg {
+  margin-top: 2rem;
+  min-width: 100%;
+}
+
+.time-limit{
+  display: flex;
+  align-items: baseline;
+}
+.visitors{
+  display: flex;
+  align-items: baseline;
+}
+.spend{
+  display: flex;
+  align-items: baseline;
+}
+.time-limit::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f017";
+  position: relative;
+  right: 0.5rem;
+}
+.visitors::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f007";
+  position: relative;
+  right: 0.5rem;
+}
+.spend::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f1d8";
+  position: relative;
+  right: 0.5rem;
+}
+.active-tab {
+  color: lightgrey;
+  margin-bottom: 2rem;
+  background-color: #170f58;
+}
+
+.tabs {
+  border: 1px solid grey;
+}
+body h4 {
+  font-weight: 500;
+}
+.button-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.shop-detail-breadcrumbs {
+  background-image: url("../../assets/images/dummy-image-landscape-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  max-width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.shop-detail-breadcrumbs::before {
+  content: "";
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.buttons-container {
+  max-width: max-content;
+}
+
+.active-styles h3 {
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 6rem;
+  cursor: pointer;
+}
+.buy-now .butn:link,
+.buy-now .butn:visited {
+  width: 100%;
+}
+@media (max-device-width: 657px) {
+  .name-email {
+    flex-direction: column;
+  }
+}
+
+@media (max-device-width: 567px) {
+  .button-container {
+    flex-direction: column;
+  }
+  .product-details .buy-now .btn-bg {
+    margin-top: 1rem;
+  }
+}
+@media (max-device-width: 467px) {
+  .button-container {
+    flex-direction: column;
+  }
+}

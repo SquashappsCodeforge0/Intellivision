@@ -1,0 +1,23 @@
+.counter-container {
+  border: 1px solid grey;
+  max-width: max-content;
+}
+.buttons-container {
+  border: 1px solid lightgrey;
+}
+.button {
+  border: 1px solid lightgrey;
+  width: 3rem;
+  border-top: none;
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.number-counter {
+  font-size: 25px;
+  font-weight: 700;
+}

@@ -1,0 +1,141 @@
+.abt-head {
+  display: flex;
+  align-items: center;
+}
+/* .about-us p {
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 36px;
+} */
+.reason-section h3 {
+  font-weight: 400;
+  
+}
+.inner-sec {
+  margin-bottom: 3rem;
+  padding: 2rem 2rem 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.25), 0 1px 2px -1px rgb(0 0 0 / 0.25);
+  transition: 0.3s all ease-in-out;
+}
+.inner-sec:hover {
+  transform: scale(1.05);
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.5);
+}
+.reason-section h4 {
+  font-weight: 100;
+  color: darkgrey;
+}
+.team-section {
+  margin-top: 5rem;
+}
+.team-image {
+  max-width: 80%;
+  /* height: 65%; */
+  border-radius: 30rem;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 5), 0 1px 2px -1px rgb(0 0 0 / 5);
+  border: 3px solid whitesmoke;
+}
+/* YourComponent.css */
+
+.team-image {
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+
+  /* background: rgba(0, 0, 0, 0.4); */
+}
+.support-team p,
+.team-leaders p {
+  font-size: 15px;
+}
+
+.team-image:hover .content {
+  opacity: 1;
+}
+.team-image:hover img {
+  opacity: 0.3;
+}
+.team-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+.team-image {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.content:hover {
+  /* transform: scale(1.1); */
+  opacity: 0.5;
+}
+body h2 {
+  text-transform: capitalize;
+}
+.shadow-sec {
+  margin-bottom: 3rem;
+  padding: 2rem 6rem 2rem 6rem;
+  border: 2px solid black;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+.about-breadcrumb {
+  background-image: url("../../assets/images/dummy-image-landscape-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  max-width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.about-breadcrumb::before {
+  content: "";
+  position: absolute;
+  /* top: 0;
+      left: 0; */
+  width: 100%;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+@media (max-device-width: 567px) {
+  .inner-sec {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+}

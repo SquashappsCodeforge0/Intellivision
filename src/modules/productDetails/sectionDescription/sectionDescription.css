@@ -1,0 +1,10 @@
+.list-items::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\3e";
+  position: relative;
+  right: 1rem;
+}
+.list-items {
+  margin-left: 1rem;
+  text-transform: capitalize;
+}

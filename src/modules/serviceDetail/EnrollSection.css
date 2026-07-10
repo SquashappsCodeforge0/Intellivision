@@ -1,0 +1,23 @@
+.enroll-section {
+  text-align: center;
+  border: 2px solid lightgray;
+  padding-top: 2rem;
+}
+.enroll-section-img {
+  width: 20%;
+}
+.know-more {
+  padding: 1rem;
+  border-top: 1px solid lightgray;
+  transition: background-color 0.1s ease-in-out;
+}
+.know-more:hover h5 {
+  color: aliceblue;
+}
+.know-more:hover {
+  transition: background-color 0.1s ease-in-out;
+  background-color: black;
+}
+.enroll-section:hover {
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.5);
+}

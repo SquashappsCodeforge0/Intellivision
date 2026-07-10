@@ -1,0 +1,15 @@
+.slick-slide {
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+.slick-slide:not(.slick-cloned):nth-child(3) {
+  transform: scale(1.5);
+  background-color: red;
+}
+.middle-slide {
+  transform: scale(1.5);
+}
+.slick-slide:focus{
+  border: none !important;
+}

@@ -1,0 +1,71 @@
+.Form-section h6{
+  color: #170F58;
+}
+.form-label {
+  color: #170F58;
+  display: flex;
+  justify-content: center;
+}
+#exampleFormControlTextarea1 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+}
+.Form-section .btn-primary {
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 20px;
+}
+.Form-section h2,
+.Form-section h6 {
+  text-align: center;
+}
+.contact-method h2 , .contact-method h6{
+  text-align: center;
+}
+.contact-breadcrumb {
+  background-image: url("../../assets/images/dummy-image-landscape-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  max-width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.contact-breadcrumb::before {
+  content: "";
+  position: absolute;
+  /* top: 0;
+      left: 0; */
+  width: 100%;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.name-sec {
+  gap: 3rem;
+}
+
+@media (max-device-width: 991px) {
+  #exampleFormControlTextarea1 {
+    max-width: 72% !important;
+  }
+}
+@media (max-device-width: 580px) {
+  .name-sec {
+    flex-direction: column;
+  }
+  .form-label {
+    justify-content: left;
+  }
+  .name-sec {
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  #exampleFormControlTextarea1 {
+    max-width: 100% !important;
+  }
+}

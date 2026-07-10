@@ -1,0 +1,13 @@
+.mobile-screen-slick .slick-slide {
+  transform: scale(0.8);
+}
+.mobile-screen-slick .slick-current {
+  transform: scale(1.001);
+  /* background-image: url("../../../assets/images/mob-outlay.svg"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.slick-slide:focus {
+  outline: none !important;
+}

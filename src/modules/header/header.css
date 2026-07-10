@@ -1,0 +1,74 @@
+.navBarData {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  /* font-family: "Rubik", sans-serif; */
+  font-size: 1rem;
+  /* font-size: 16px; */
+  color: white;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.ralewayFont {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.nav-contain {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: 0.3s;
+}
+
+.nav-contain:hover{
+  transform: scale(1.06);
+}
+.nav-contain img{
+  width:auto;
+}
+.colorForNavFont {
+  color: white;
+  transition: 0.3s;
+}
+.colorForNavFont:hover{
+  color:goldenrod;
+  /* transform: scale(1.1); */
+}
+.navBg {
+  padding-top: 2rem;
+  /* position: relative; */
+  position: sticky;
+  top: -2px;
+  z-index: 2000;
+  padding-bottom: 2rem;
+  background-color: #170f58;
+}
+.navbar-nav {
+  --bs-nav-link-hover-color:white:
+}
+.dropdown-menu {
+  --bs-dropdown-link-active-bg:#170F58
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: goldenrod;
+}
+
+@media (min-device-width:1200px){
+  .colorForNavFont:hover{
+    transform: scale(1.2) ;
+  }
+}
+
+@media (min-device-width:992px){
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}

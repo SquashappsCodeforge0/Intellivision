@@ -1,0 +1,13 @@
+body h5 {
+  text-transform: capitalize;
+}
+.arow-item::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\3e";
+  position: relative;
+  font-weight: 800;
+}
+.arow-item {
+  display: flex;
+  gap: 1rem;
+}

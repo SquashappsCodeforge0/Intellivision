@@ -1,0 +1,39 @@
+.tp-head-sec h3 {
+  text-transform: uppercase;
+}
+.training-packages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+.tp-subpara {
+  padding: 1rem;
+  border-bottom: 1px solid lightgrey;
+  width: 85%;
+}
+.tp-subpara p {
+  text-transform: capitalize;
+}
+.tp-head-sec {
+  min-width: 100%;
+  padding: 3rem;
+}
+.training-packages-container .tp-head-sec {
+  /* background-color: #f7f7f7; */
+  transition: background-color 0.3s ease-in-out;
+}
+.training-packages-container:hover .tp-head-sec {
+  background-color: #170f58;
+}
+.training-packages-container:hover .tp-head-sec h3 {
+  color: white;
+}
+.training-packages-container:hover .button-pop {
+  transition: 0.3s ease-in-out;
+}
+.training-packages-container:hover .button-pop {
+  transform: scale(1.2);
+}

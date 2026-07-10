@@ -1,0 +1,19 @@
+.find-container {
+  background-color: #170f58;
+  text-align: center;
+  padding: 3rem;
+  transition: 0.3s;
+}
+.find-container h3,
+.find-container p {
+  color: white;
+}
+.find-image {
+  width: 15%;
+}
+/* .find-container:hover .find-image {
+  transform: scale(1.5);
+} */
+.find-container:hover {
+  transform: translate(5px, 12px);
+}
